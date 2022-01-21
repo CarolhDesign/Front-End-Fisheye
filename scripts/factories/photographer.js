@@ -9,6 +9,7 @@ function photographerFactory(data) {
         img.setAttribute("src", picture)
         const h2 = document.createElement( 'h2' );
         h2.textContent = name;
+        
         article.appendChild(img);
         article.appendChild(h2);
         return (article);
